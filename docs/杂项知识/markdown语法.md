@@ -205,18 +205,18 @@ ___粗斜体文本___
 
 - 使用实例
 
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+![可爱的猫猫](https://img04.sogoucdn.com/app/a/100520024/9f6493f7ee59929dbbc5c54b363ae409)
 
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
+![可爱的猫猫](https://img04.sogoucdn.com/app/a/100520024/9f6493f7ee59929dbbc5c54b363ae409 "RUNOOB")
 
 
 - 指定宽高
 Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 \<img> 标签。
 ```
-<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
+<img src="https://img04.sogoucdn.com/app/a/100520024/9f6493f7ee59929dbbc5c54b363ae40" width="50%">
 ```
 
-<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
+<img src="https://img04.sogoucdn.com/app/a/100520024/9f6493f7ee59929dbbc5c54b363ae40" width="30%">
 
 
 # 表格
@@ -265,20 +265,3 @@ $$
 ${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
 ```
-输出为：
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
-
-mermaid
-graph LR
-A[方形] -->B(圆角)
-    B --> C{条件a}
-    C -->|a=1| D[结果1]
-    C -->|a=2| E[结果2]
-    F[横向流程图]
